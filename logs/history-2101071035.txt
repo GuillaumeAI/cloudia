@@ -1,0 +1,102 @@
+    1  su apt update
+    2  sudo apt update
+    3  docker ps
+    4  sudo apt install docker
+    5  docker ps
+    6  sudo apt install docker docker-cli
+    7  apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+    8  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+    9  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   10  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   11     $(lsb_release -cs) \
+   12     stable"
+   13  sudo apt-get update
+   14  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   15  apt-cache madison docker-ce
+   16  sudo docker run hello-world
+   17  docker pull guillaumeai/tf:1.12.0
+   18  sudo docker pull guillaumeai/tf:1.12.0
+   19  sudo docker run jgwill/gix-adaptive-style-transfer:cpu
+   20  docker ps
+   21  sudo docker ps
+   22  sudo docker run -it --rm jgwill/gix-adaptive-style-transfer:cpu
+   23  passwd
+   24  sudo passwd
+   25  sudo passwd jgi
+   26  sudo passwd root
+   27  su -
+   28  sudo vi /etc/motd
+   29  docker ps
+   30  sudo docker ps
+   31  sudo docker pull jgwill/ubuntu
+   32  sudo docker pull guillaumeai/tf:1.12.0-cpu
+   33  sudo docker pull guillaumeai/tf:1.4.1
+   34  ls -la
+   35  cat .passwd-s3fs 
+   36  ls s3-drive/
+   37  vi x__mount_fichiers.sh
+   38  source x__mount_fichiers.sh 
+   39  ls _s3fs/
+   40  ls _s3fs/fichiers/
+   41  ls _s3fs/fichiers/gia/
+   42  ls _s3fs/fichiers/gia/datasets/
+   43  ls _s3fs/fichiers/gia/datasets/mod
+   44  ls _s3fs/fichiers/gia/model/
+   45  ls _s3fs/fichiers/gia/model/models/
+   46  df -h
+   47  sudo mkdir -m 777 /data
+   48  sudo mkdir -m 777 /a
+   49  cd /a
+   50  ls
+   51  du -khs
+   52  tar xzf dist-model_giapicallo_v03__201216-201218-225k.tar.gz 
+   53  mkdir model
+   54  mkdir model/models
+   55  mv dist-model_giapicallo_v03__201216-201218-225k.tar.gz model/models/gia-dist-model_giapicallo_v03__201216-201218-225k
+   56  ls
+   57  ls model_giapicallo_v03__201216-201218-225k/
+   58  ls
+   59  ls model
+   60  ls model_giapicallo_v03__201216-201218-225k/
+   61  mv model/models/gia-dist-model_giapicallo_v03__201216-201218-225k ./gia-dist-model_giapicallo_v03__201216-201218-225k.tar.gz
+   62  mv model_giapicallo_v03__201216-201218-225k/ model/models/gia-dist-model_giapicallo_v03__201216-201218-225k
+   63  sudo docker pull jgwill/pix2pix:gia-pix2pix-tensorflow-memo
+   64  sudo docker pull jgwill/gix-adaptive-style-transfer:cpu
+   65  ls
+   66  du -ksh *
+   67  mkdir downloads
+   68  mv gia-dist-model_giapicallo_v03__201216-201218-225k.tar.gz downloads/
+   69  ls -ltr
+   70  sleep 200 ; mv model_giapicallo_v04__201221-pix2pix-2012300846-512px-80k.tar.gzmodel_giapicallo_v04__201221-pix2pix-2012300846-512px-80k.tar.gz downloads/gia-dist-model_giapicallo_v04__201221-pix2pix-2012300846-512px-80k.tar.gz && echo "model renamed : downloads/gia-dist-model_giapicallo_v04__201221-pix2pix-2012300846-512px-80k.tar.gz" && tar xfz downloads/gia-dist-model_giapicallo_v04__201221-pix2pix-2012300846-512px-80k.tar.gz
+   71  ls
+   72  mv model_giapicallo_v04__201221-pix2pix-2012300846-512px-80k.tar.gz downloads/gia-dist-model_giapicallo_v04__201221-pix2pix-2012300846-512px-80k.tar.gz
+   73  tar xfz downloads/gia-dist-model_giapicallo_v04__201221-pix2pix-2012300846-512px-80k.tar.gz
+   74  ls
+   75  mv model_giapicallo_v04__201221-pix2pix-2012300846-512px-80k model/models/gia-dist-model_giapicallo_v04__201221-pix2pix-2012300846-512px-80k
+   76  ls model/models/
+   77  mkdir src
+   78  cd src
+   79  git clone https://github.com/GuillaumeIsabelleX/gix-adaptive-style-transfer.git
+   80  git clone https://github.com/GuillaumeAI/gia-pix2pix-tensorflow-memo.git
+   81  ls
+   82  cd gix-adaptive-style-transfer/
+   83  ls
+   84  cd bin
+   85  ls
+   86  cat depl.sh 
+   87  ./depl.sh 
+   88  sudo ./depl.sh 
+   89  history | grep s3
+   90  cd /a
+   91  mkdir -m 777 lib
+   92  cd lib
+   93  git clone git@github.com:GuillaumeAI/gia-datasets-2101.git datasets
+   94  git clone https://github.com/GuillaumeAI/gia-datasets-2101.git datasets
+   95  ls -ltr
+   96  git clone https://github.com/GuillaumeAI/gia-lib-samples-2101.git samples
+   97  cd /a/src
+   98  ls
+   99  git clone https://github.com/GuillaumeAI/cloudia.git
+  100  cd cloudia/
+  101  history | history-2101071035.txt
+  102  history > history-2101071035.txt
