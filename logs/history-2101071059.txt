@@ -1,0 +1,42 @@
+    1  su apt update
+    2  sudo apt update
+    3  docker ps
+    4  sudo apt install docker
+    5  docker ps
+    6  sudo apt install docker docker-cli
+    7  apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+    8  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+    9  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   10  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   11     $(lsb_release -cs) \
+   12     stable"
+   13  sudo apt-get update
+   14  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   15  apt-cache madison docker-ce
+   16  sudo docker run hello-world
+   17  docker pull guillaumeai/tf:1.12.0
+   18  sudo docker pull guillaumeai/tf:1.12.0
+   19  sudo docker run jgwill/gix-adaptive-style-transfer:cpu
+   20  docker ps
+   21  sudo docker ps
+   22  sudo docker run -it --rm jgwill/gix-adaptive-style-transfer:cpu
+   23  passwd
+   24  sudo passwd
+   25  sudo passwd jgi
+   26  sudo passwd root
+   27  su -
+   28  sudo vi /etc/motd
+   29  cd /a/lib/results/
+   30  ls
+   31  cd model_gia-dist-model_giapicallo_v03__201216-201218-225k/
+   32  ls
+   33  cd ..
+   34  sudo apt install nodejs
+   35  sudo npm i npm --g
+   36  sudo apt install npmjs -y
+   37  sudo apt list npm*
+   38  sudo apt install npm
+   39  istory
+   40  history
+   41  cd /a/src/cloudia/
+   42  history > logs/history-2101071059.txt 
